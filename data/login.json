@@ -1,0 +1,20 @@
+{
+    "login001":{
+        "username":"18712345678",
+        "password":"123456",
+        "verify_code":"8888",
+        "expect":1
+        },
+    "login002":{
+            "username":"187123456789",
+            "password":"123456",
+            "verify_code":"8888",
+            "expect":-1
+        },
+    "login003":{
+            "username":"18712345678",
+            "password":"12345698",
+            "verify_code":"8888",
+            "expect":-2
+        }
+}
